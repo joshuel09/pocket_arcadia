@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="josusama.corp.pocketarcadia.Arcadeonetut">
+
+    <TextView
+        android:id="@+id/how"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="HOW TO PLAY"
+        android:textAlignment="center"
+        android:textColor="#b30000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="This retro-inspired game uses a modern tech which is gyroscope sensor. Using your phone, your car can tilt from left to right and can move forward and backward. Your main objective is to pass the blue cars without hitting them. Score is based on how far the distance your car has covered. Once you’re hit by a blue car, your “Health” decreases, when it decreases to 0 it’s game over."
+        android:textAlignment="center"
+        android:textColor="#d2d2d2"
+        android:textSize="23dp" />
+
+
+
+</LinearLayout>
+

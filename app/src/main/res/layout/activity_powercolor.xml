@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="josusama.corp.pocketarcadia.Powercolor">
+
+
+    <TextView
+        android:id="@+id/textViewMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="HI-SCORE"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/textViewMainScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Display highscore here"
+        android:textColor="@android:color/white"
+        android:textSize="25dp" />
+
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center"/>
+
+
+
+    <TextView
+        android:id="@+id/textViewDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Difficulty"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <SeekBar
+        android:id="@+id/difficultyBar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewSlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slower"
+        android:layout_marginLeft="60dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/textViewFast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="255dp"
+        android:text="Faster"
+        android:layout_marginTop="-15dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/white" />
+
+
+
+
+    <Button
+        android:id="@+id/buttonPlayGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gameStart"
+        android:text="PRESS START"
+        android:textColor="@color/startblue"
+        android:layout_marginTop="-15dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="@color/transparent" />
+
+    <Button
+        android:id="@+id/Buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOW TO PLAY"
+        android:textColor="#e7e742"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent" />
+
+
+</LinearLayout>

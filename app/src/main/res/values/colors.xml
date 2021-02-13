@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="deeppurple">#f79914</color>
+    <color name="white">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="startblue">#09c6df</color>
+    <color name="tabtextcolor">#580000</color>
+    <color name="tabindicator">#d40b0e</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+
+
+</resources>

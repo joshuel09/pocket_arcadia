@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272727"
+    tools:context="josusama.corp.pocketarcadia.Arcadetwo">
+
+    <ImageButton
+        android:id="@+id/arcadetwo"
+        android:layout_width="280dp"
+        android:layout_height="370dp"
+        android:background="@drawable/powercolor"
+        android:padding="10dp" />
+
+    <VideoView
+        android:layout_marginTop="-279dp"
+        android:id="@+id/videoView"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="1.5dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
