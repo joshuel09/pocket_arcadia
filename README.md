@@ -1,6 +1,6 @@
 #  Pocket Arcadia
 
-    Developed By: Josusama
+    Developed By: Josusama™
 
 ## Stack
     
